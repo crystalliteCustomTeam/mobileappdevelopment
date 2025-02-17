@@ -309,7 +309,7 @@ const Footer = () => {
                   <ul className={styles.locationLinks}>
                       <li className="d-flex align-items-center gap-2">
                         <FaLocationArrow className="text-white"/>
-                          <Link href="https://maps.app.goo.gl/voyh3yTu9b3BVKus9" target="_blank">4201 Main St Suite # 200-122, Houston, TX 77002</Link>
+                          <Link href="#">165 Broadway Suite # 1007, 21st Floor, New York, NY 10006</Link>
                         </li>
                   </ul>
                 </div>

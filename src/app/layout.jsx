@@ -5,16 +5,16 @@ import ConditionalLayout from "@/src/app/ConditionalLayout"
 
 //===== Meta Data =====
 export const metadata = {
-  metadataBase: new URL("https://www.mobileappdevelopmentcompany.us/"),
+  metadataBase: new URL("http://appdevelopmentcompanynewyork.com/"),
   //===== Meta Tags =====
-  title: "Top Mobile App Development Services | BitsWits",
+  title: "Mobile App Development Company in New York | Expert App Developers",
   description:
-    "BitsWits delivers best mobile app development services with the top app developers, offering customized solutions across industries for impactful results!",
+    "Looking for a mobile app development company in New York? Our expert team crafts high-performance, user-friendly iOS & Android apps tailored to your business needs.",
   //===== OG Tags =====
   openGraph: {
-    title: "Top Mobile App Development Services | BitsWits",
+    title: "Mobile App Development Company in New York | Expert App Developers",
     description:
-      "BitsWits delivers best mobile app development services with the top app developers, offering customized solutions across industries for impactful results!",
+      "Looking for a mobile app development company in New York? Our expert team crafts high-performance, user-friendly iOS & Android apps tailored to your business needs.",
     url: "/",
     siteName: "BitsWits",
     locale: "en_US",

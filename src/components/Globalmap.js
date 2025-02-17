@@ -14,7 +14,7 @@ const Globalmap = ({ content }) => {
               <div className={styles.newtimg}>
                 <h2>Meet Our Experts <br></br>
                   One-on-One</h2>
-                <a className={styles.address} target="_blank" href={link}>{address}</a>
+                <a className={styles.address} href={link}>{address}</a>
                 <a className={`pink ${styles.timr}`} href='javascript:window.replaceChat();'>
                   Let's Chat
                 </a>
@@ -22,7 +22,7 @@ const Globalmap = ({ content }) => {
               </div>
             </Col>
             <Col lg={6} className="p-0">
-              <a href={link} target="_blank">
+              <a href={link}>
                 <Image src={image} alt="Bitswits" loading="lazy" sizes="100vw" width={700} height={453} className="w-100" />
               </a>
             </Col>
