@@ -1,4 +1,8 @@
 User-agent: *
-Disallow: /
+Disallow: /portfolio
+Disallow: /case-studies/singles-up
+Disallow: /case-studies/vifty
+Disallow: /case-studies/soul-scribe
+Disallow: /case-studies/nutri-snap
 
-Sitemap: https://www.mobileappdevelopmentcompanynewyork.com/sitemap.xml
+Sitemap: https://www.appdevelopmentcompanynewyork.com/sitemap.xml
