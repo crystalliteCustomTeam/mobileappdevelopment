@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic"
 import "bootstrap/dist/css/bootstrap.min.css"
 import ConditionalLayout from "@/src/app/ConditionalLayout"
-// const Scripts = dynamic(() => import("@/src/app/Scripts"))
+import { Scripts } from "./Scripts"
 
 //===== Meta Data =====
 export const metadata = {
@@ -52,7 +52,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <link rel="icon" href="/favicon.ico" sizes="48x48" type="image/x-icon" />
-      {/* <Scripts /> */}
+      <Scripts />
       <body>
         <ConditionalLayout>{children}</ConditionalLayout>
       </body>
